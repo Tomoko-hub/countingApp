@@ -1,8 +1,11 @@
+import CounterApp from "./CounterApp";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
-      Oiiii
+    <div className="container">
+      <CounterApp />
     </div>
   );
 }
